@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<main>
+    <section id="selectComp">
+        <table>
+            <tr>
+                <td>Płyta główna</td>
+                <td>
+                    <select name="mb" id="mb" onchange="SelectedItemValue('mb')">
+
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Karta graficzna</td>
+                <td>
+                    <select name="gfx" id="gfx" onchange="SelectedItemValue('gfx')">
+
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Procesor</td>
+                <td>
+                    <select name="cpu" id="cpu" onchange="SelectedItemValue('cpu')">
+                    </select>
+                </td>
+            </tr>
+            <td>Ram</td>
+            <td>
+                <select name="ram" id="ram" onchange="SelectedItemValue('ram')">
+
+                </select>
+            </td>
+            </tr>
+            <td>Zasilacz</td>
+            <td>
+                <select name="zas" id="zas" onchange="SelectedItemValue('zas')">
+
+                </select>
+            </td>
+            </tr>
+            <td>Obudowa</td>
+            <td>
+                <select name="obd" id="obd" onchange="SelectedItemValue('obd')">
+
+                </select>
+            </td>
+            </tr>
+            <td>Monitor</td>
+            <td>
+                <select name="mon" id="mon" onchange="SelectedItemValue('mon')">
+
+                </select>
+            </td>
+            </tr>
+            <td>Klawiatura</td>
+            <td>
+                <select name="kla" id="kla" onchange="SelectedItemValue('kla')">
+                </select>
+            </td>
+            </tr>
+        </table>
+    </section>
+    <table id="summaryComp">
+        <tr id="summaryCpu"></tr>
+        <tr id="summaryMb"></tr>
+        <tr id="summaryGfx"></tr>
+        <tr id="summaryRam"></tr>
+        <tr id="summaryZas"></tr>
+        <tr id="summaryObd"></tr>
+        <tr id="summaryMon"></tr>
+        <tr id="summaryKla"></tr>
+    </table>
+
+    <div id="summaryMainboard"></div>
+    <div id="sumAll"></div>
+</main>
+
+<script src="js/main.js"></script>
+</body>
+</html>

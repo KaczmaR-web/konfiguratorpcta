@@ -1,0 +1,28 @@
+body {
+    background-image: url("../img/mainBackground.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+#summaryComp{
+    border-top: 4px solid white;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+table#summaryComp {
+    width: 70%;
+}
+
+table#summaryComp,
+table#summaryComp td
+{
+    border:2px solid white;
+    border-collapse: collapse;
+}
+
+#summaryComp img {
+    height: auto;
+    width: 120px;
+}
